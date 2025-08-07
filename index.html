@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-   <html>
-   <head>
-       <title>Subdomain Takeover PoC</title>
-   </head>
-   <body>
-       <h1>Subdomain Takeover Proof of Concept</h1>
-       <p>This subdomain (1click-k8s.arvancloud.ir) has been claimed for security research purposes.</p>
-       <p>Researcher: [Your Name]</p>
-       <p>Date: August 7, 2025</p>
-       <p>This is a harmless proof of concept for ArvanCloud bug bounty program.</p>
-   </body>
-   </html>
+<html>
+<head>
+    <title>Subdomain Takeover PoC - 1click-k8s.arvancloud.ir</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f0f0f0; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { color: #d73527; font-size: 24px; margin-bottom: 20px; }
+        .proof { background: #e8f5e8; padding: 15px; border-left: 4px solid #4caf50; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">🚨 Subdomain Takeover Proof of Concept</h1>
+        
+        <div class="proof">
+            <h3>Vulnerability Confirmed</h3>
+            <p><strong>Affected Domain:</strong> 1click-k8s.arvancloud.ir</p>
+            <p><strong>Takeover Method:</strong> GitHub Pages</p>
+            <p><strong>Date:</strong> August 7, 2025</p>
+            <p><strong>Researcher:</strong> [Your Name/Handle]</p>
+        </div>
+        
+        <h3>Technical Details:</h3>
+        <ul>
+            <li>Subdomain had no DNS A or CNAME records</li>
+            <li>Successfully claimed via GitHub Pages</li>
+            <li>Can serve arbitrary content under ArvanCloud domain</li>
+            <li>Potential for phishing and brand impersonation</li>
+        </ul>
+        
+        <h3>Impact:</h3>
+        <ul>
+            <li>Complete control over subdomain content</li>
+            <li>Ability to harvest credentials from ArvanCloud users</li>
+            <li>Brand reputation damage potential</li>
+            <li>SSL certificate abuse possible</li>
+        </ul>
+        
+        <p><em>This is a harmless proof of concept for ArvanCloud's bug bounty program.</em></p>
+        
+        <div style="margin-top: 30px; font-size: 12px; color: #666;">
+            <p>Reported responsibly through ArvanCloud Bug Bounty Program</p>
+            <p>Testing IP: 192.168.1.105</p>
+        </div>
+    </div>
+</body>
+</html>
